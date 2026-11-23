@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalogue d’ateliers</title>
+<link rel="stylesheet" href="./styles.css">
+<main>
+  <h1>Catalogue d’ateliers</h1>
+  <p>Un site pour retrouver des ateliers de développement web et garder ses favoris.</p>
+  <div class="filtres">
+  <label>Rechercher <input id="recherche" type="search"></label>
+  <label>Catégorie <select id="categorie">
+    <option value="">Toutes</option><option>HTML</option><option>CSS</option><option>JavaScript</option>
+  </select></label>
+</div>
+  <label><span><input id="favoris-seuls" type="checkbox"> Favoris uniquement</span></label>
+  <nav><button id="reessayer" type="button">Réessayer</button><button id="simuler" type="button">Simuler une erreur HTTP</button></nav>
+  <p id="statut" role="status"></p>
+  <ul id="liste"></ul>
+</main>
+<script type="module" src="./script.js"></script>
+</html>

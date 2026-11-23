@@ -1,0 +1,32 @@
+[
+  {
+    "id": "html",
+    "titre": "Construire une page accessible",
+    "categorie": "HTML",
+    "minutes": 35
+  },
+  {
+    "id": "grid",
+    "titre": "Créer une grille responsive",
+    "categorie": "CSS",
+    "minutes": 45
+  },
+  {
+    "id": "flex",
+    "titre": "Aligner une barre de navigation",
+    "categorie": "CSS",
+    "minutes": 25
+  },
+  {
+    "id": "dom",
+    "titre": "Afficher des cartes avec le DOM",
+    "categorie": "JavaScript",
+    "minutes": 50
+  },
+  {
+    "id": "fetch",
+    "titre": "Charger un catalogue JSON",
+    "categorie": "JavaScript",
+    "minutes": 60
+  }
+]

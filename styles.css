@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f6f8fb; color: #172438; font: 1rem/1.55 system-ui, sans-serif; }
+main { max-width: 62rem; margin: auto; padding: 2rem 1rem; }
+nav, .filtres { display: flex; flex-wrap: wrap; gap: .8rem; margin-block: 1rem; align-items: end; }
+label { display: grid; gap: .25rem; }
+a { color: #154ca3; }
+input, select, button { font: inherit; padding: .45rem .65rem; }
+button { cursor: pointer; }
+button[aria-pressed="true"] { background: #173b77; color: white; }
+#liste { list-style: none; padding: 0; display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+#liste li { background: white; border: 1px solid #ccd7e6; border-radius: .5rem; padding: 1rem; }
+#liste h2 { font-size: 1.1rem; margin: 0; }

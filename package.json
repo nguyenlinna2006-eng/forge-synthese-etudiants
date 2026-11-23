@@ -1,0 +1,1 @@
+{"name":"forge-synthese","private":true,"type":"module","scripts":{"start":"node serveur.mjs"}}
